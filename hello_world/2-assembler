@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -S $CFILE ${CFILE%.*}.s
+gcc -S "$CFILE" -o "$BASENAME.s"
+
