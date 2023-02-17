@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -S "$CFILE" -o ".s"
+gcc -S "$CFILE" -o "$FILENAME.s"
+
