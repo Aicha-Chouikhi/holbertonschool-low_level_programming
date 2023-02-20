@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /* print whether the number stored in the variable n is positive or negative */
-int main(void)
+int main(void);
 {
 int n;
 srand(time(0));
