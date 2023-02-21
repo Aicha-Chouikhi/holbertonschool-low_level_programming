@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 * main - Entry point
 *
@@ -6,13 +7,15 @@
 *
 * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-int x;
+int a = 0;
 
-for (x = 0; x < 10; x++)
-  printf("%d", x);
- printf('\n');
+for (a = 0; a <= 9; a++)
+putchar("%d", a);
+ 
+putchar('\n');
 
- return (0);
+return (0);
 }
