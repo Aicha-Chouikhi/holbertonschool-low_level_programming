@@ -12,9 +12,11 @@ void print_alphabet(void)
   
 char alph = 'a';
 
-do
+while (alph <= 'z')
+{
 _putchar(alph);
-while (++alph <= 'z');
+ alph++;
+}
 
 _putchar('\n');
 }
