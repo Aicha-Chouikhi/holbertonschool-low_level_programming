@@ -2,9 +2,7 @@
 #include "main.h"
 
 /**
-* main - check the code
-*
-* print the alphabet, in lowercase *
+* main - check the code for Holberton School students.
 *
 * Return: Always 0.
 */
