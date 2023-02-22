@@ -7,11 +7,14 @@
 *
 * Return: Always 0 (Success)
 */
-int print_alphabet(void)
+void print_alphabet(void)
 {
-char alph;
-for(alph = 'a'; alph <= 'z' ; alph++)
+  
+char alph = 'a';
+
+do
 _putchar(alph);
+while (++alph <= 'z');
 
 _putchar('\n');
 }
