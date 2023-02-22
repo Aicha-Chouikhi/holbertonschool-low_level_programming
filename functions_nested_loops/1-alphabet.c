@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - Entry point
+* main - check the code
 *
 * print_alphabet *
 *
