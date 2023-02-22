@@ -9,10 +9,9 @@
 */
 int print_alphabet(void)
 {
-char alph = 'a';
-while (alph <= 'z')
+char alph;
+for(alph = 'a'; alph <= 'z', alph++)
 putchar(alph);
-alph++;
 
 putchar('\n');
 }
