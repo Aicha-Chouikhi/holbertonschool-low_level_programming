@@ -21,6 +21,6 @@ return (0);
 else
 {
 _putchar ('-');
-return (-1)
+return (-1);
 }
 }
