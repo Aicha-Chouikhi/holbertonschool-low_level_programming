@@ -2,16 +2,8 @@
 #include "main.h"
 
 /**
-* print_alphabet_X10 - a function that prints 10 times the alphabet, in lowercasea function that prints 10 times the alphabet, in lowercase
-* @#include <stdio.h>
-#include "main.h"
-
-/**
-* print_alphabet_X10 - a function that print\
-s 10 times the alphabet, in lowercasea funct\
-ion that prints 10 times the alphabet, in lo\
-wercase
-* @
+* print_alphabet_X10 - a function that prints 10 times the alphabet, in lowercase
+* @n: number input
 * Return: x10 a-z
 */
 void print_alphabet_x10(void)
