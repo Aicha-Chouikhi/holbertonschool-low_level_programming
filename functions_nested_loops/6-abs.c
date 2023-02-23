@@ -1,8 +1,21 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
-* print_alphabet -print alphabet
-*
-* Return: void
+* _abs - a function that computes the absolute value of an integer
+* @n: integer input
+* Return: absolute value of n 
 */
-int print_last_digit(int)
+int _abs(int n)
+{
+  if (n < 0)
+    {
+      r = n * - 1
+      return (r);
+    }
+  else
+    {
+      return (n);
+    }
+}
+
