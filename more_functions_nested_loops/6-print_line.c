@@ -13,13 +13,15 @@ int i;
 
 if (n <= 0)
 {
-putchar('\n');
-return;
+_putchar('\n');
 }
-for (i = 0; i < n; i++)
-putchar('_');
+else
+{
+for (i = 1; i <= n; i++)
+{
+_putchar('_');
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 
