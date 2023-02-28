@@ -2,9 +2,10 @@
 
 /**
  * rev_string - a function that reverses a string
- * @s: input
+ * @s: input string
  * Return: string in reverse
  */
+
 void rev_string(char *s)
 {
 
