@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -5,6 +6,7 @@
  * @str: string input
  *  Return: string
  */
+
 void _puts(char *str)
 {
 
