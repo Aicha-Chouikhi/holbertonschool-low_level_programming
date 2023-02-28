@@ -2,16 +2,16 @@
 
 /**
  * _puts - is a function that prints a string
- * @str: input
- *  Return: Always 0.
+ * @str: string input
+ *  Return: string
  */
 void _puts(char *str)
 {
+int i;
 
-int i = 0;
-for (str [i] != "\0", i++)
+for (i = 0; str [i] != "\0", i++)
 {
-printf (%c, str[i]);
+_putchar(str[i]);
 }
-printf ("\n");
+_putchar('\n');
 }
