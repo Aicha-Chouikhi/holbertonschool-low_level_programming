@@ -19,5 +19,5 @@ for ( ; j < n; j++)
 {
 dest[j] = '\0';
 }
-return dest;
+return (dest);
 }
