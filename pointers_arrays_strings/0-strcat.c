@@ -4,18 +4,14 @@
  * _strcat - a function that concatenates two strings
  * @dest: copy to
  * @src: copy from
- * Return: concat string
+ * Return: string
  */
 
 char *_strcat(char *dest, char *src)
 {
-
-int i, n;
-for (i = 0; dest[i] != '\0'; i++)
-{
-}
-for (n = 0; (dest[i + n] = *src++) != '\0'; n++)
-{
-}
+int j, k;
+ 
+for (j = 0; dest[j] != '\0'; j++)
+for (k = 0; (dest[j + k] = *src++) != '\0'; k++)
 return (dest);
 }
