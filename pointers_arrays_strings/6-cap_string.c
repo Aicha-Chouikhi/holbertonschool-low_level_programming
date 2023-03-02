@@ -8,17 +8,29 @@
 
 char *string_toupper(char *str)
 {
-int x = 0;
+int i, x;
+int cap = 32;
+int separators[] = {',', ';', '.', '?', '"', '(', ')', '{', '}', ' ', '\n', '\t'};
 
-while (str[x])
+for (i = 0; n[i] != '\0'; i++)
 {
-if (str[x] >= 'a' && str[x] <= 'z')
-str[x] -= 32;
-
-x++;
+if (n[i] >= 'a' && n[i] <= 'z')
+{
+n[i] = n[i] - cap;
 }
 
-return (str);
+cap = 0;
+
+for (x = 0; x <= 12; x++)
+{
+if (n[i] == separators[x])
+{
+x = 12;
+cap = 32;
+}
+}
+}
+return (n);
 }
 
 
