@@ -14,8 +14,11 @@ if (*s == c)
 {
 return (s);
 }
-else
-if (*s == '\0')
-return (NULL);
 }
+
+if (*s == '\0')
+{
+return (s);
+}
+return (NULL);
 }
