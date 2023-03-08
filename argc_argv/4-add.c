@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-int j, ad = 0;
+int j, add = 0;
 if (argc < 1)
 return (0);
 for (j = 1; j < argc; j++)
@@ -19,9 +19,9 @@ if (!atoi(argv[j]))
 printf("%s\n", "Error");
 return (1);
 }
-ad += atoi(argv[j]);
+add += atoi(argv[j]);
 }
-printf("%d\n", ad);
+printf("%d\n", add);
 
 	return (0);
 }
